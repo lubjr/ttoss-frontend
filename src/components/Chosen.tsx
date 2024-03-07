@@ -10,7 +10,7 @@ export function Chosen() {
               <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/Oa_RSwwpPaA?si=8Oowkn4oK4kJh3Jv"></iframe>
               
             </div>
-            <button className="m-2 p-8 py-2 text-center text-zinc-900 bg-gray-200 rounded-lg hover:bg-gray-300">Winner</button>
+            <button className="m-2 p-8 py-2 text-center text-zinc-900 bg-gray-200 rounded-lg hover:bg-gray-300 font-bold">Winner</button>
           </div>
           
           <div className="text-center">
@@ -21,7 +21,7 @@ export function Chosen() {
               <iframe className="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/gVAy3IZiL0s?si=ekz_hBjpIZg8-IrA"></iframe>
               
             </div>
-            <button className="m-2 p-8 py-2 text-center text-zinc-900 bg-gray-200 rounded-lg hover:bg-gray-300">Winner</button>
+            <button className="m-2 p-8 py-2 text-center text-zinc-900 bg-gray-200 rounded-lg hover:bg-gray-300 font-bold">Winner</button>
           </div>
 
     </div>
