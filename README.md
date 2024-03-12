@@ -2,6 +2,9 @@ Front end application
 ```
 npm i
 ```
+```
+npm run dev
+```
 The server must be running
 ## Some previous images
 ![image](https://github.com/lubjr/ttoss-frontend/assets/89494183/a9466e1d-6764-4103-a612-93edb865a010)
