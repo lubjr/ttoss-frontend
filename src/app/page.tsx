@@ -33,7 +33,7 @@ export default function Home() {
               <p className="font-bold mr-2">{index + 1}.</p>
               <p>{video.title}</p>
             </div>
-            <p className="font-semibold">{video.rating}</p>
+            <p className="font-semibold">Score: {video.rating}</p>
           </div>
         ))}
         {videoList.length > 3 && (
@@ -46,11 +46,16 @@ export default function Home() {
         )}
       </div>
 
-      <div className="mt-10">
-        
-        <button className="bg-gray-900 text-white font-semibold py-4 px-8 rounded-md mb-2 hover:bg-gray-800">Play Now</button>
+      <div className="max-w-screen-xl mx-auto text-center mt-10">
+        <a href="/game" className="bg-gray-900 text-white font-semibold py-4 px-8 rounded-md mb-2 inline-block hover:bg-gray-800">Play Now</a>
       </div>
 
+      
+      <div className="max-w-screen-xl mx-auto text-center mt-5">
+        <p className="mb-4">"To add video, please create an account or sign up"</p>
+      </div>
+      
     </div> 
+    
   );
 }
