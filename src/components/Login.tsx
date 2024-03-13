@@ -1,6 +1,6 @@
 export function Login() {
     return (
-    <div className="flex justify-center items-center">
+    <div className="justify-center items-center">
       <div className="bg-white p-8 rounded shadow-md w-80">
         <form>
           <div className="mb-4">
@@ -13,6 +13,9 @@ export function Login() {
           </div>
           <button type="submit" className="w-full bg-gray-200 text-zinc-900 font-semibold py-2 px-4 rounded-md hover:bg-gray-300">Enter</button>
         </form>
+      </div>
+      <div className="mt-5 max-w-screen-xl mx-auto text-center">
+        <a href="/" className="underline hover:text-gray-400"> ← Back to home </a>
       </div>
     </div>
     );
