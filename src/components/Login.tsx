@@ -1,6 +1,6 @@
 export function Login() {
     return (
-    <div className="justify-center items-center">
+    <div className="mt-16 justify-center items-center">
       <div className="bg-white p-8 rounded shadow-md w-80">
         <form>
           <div className="mb-4">
