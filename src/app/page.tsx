@@ -1,4 +1,5 @@
 'use client';
+import SignButtons from "@/components/SignButtons";
 import { api } from "@/lib/api";
 import { useState, useEffect } from "react";
 
@@ -24,9 +25,11 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="mt-20 justify-center h-screen items-center">
+    <div className="justify-center h-screen items-center">
+      
+      <SignButtons />
 
-      <div>
+      <div className="mt-10">
         {videoList.slice(0, showMore ? videoList.length : 3).map((video, index) => (
           <div key={video.rating} className="flex justify-between items-center py-2">
             <div className="flex items-center">
